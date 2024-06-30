@@ -1,0 +1,679 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: url("./assets/background.png");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.welcome-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  box-shadow: rgba(0, 0, 0, 0.99) 0px 5px 15px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.logo-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.msk {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #10bca0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2980b9;
+  text-decoration: none;
+  color: white;
+}
+
+.dashboard-box-incoming {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+  color: white;
+}
+
+.dashboard-box-incoming p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dashboard-box-incoming .numbers {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.dashboard-box {
+  width: 190px;
+  height: 150px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  margin-left: 15px;
+  padding: 20px;
+  color: white;
+}
+
+.dashboard-box p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dashboard-box .numbers {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.incoming_report {
+  background-color: #02a0fc;
+}
+
+.reportings_accepted {
+  background-color: #fec400;
+}
+
+.reportings_rejected {
+  background-color: #f12b2c;
+}
+
+.reportings_completed {
+  background-color: #14bd96;
+}
+
+.reportings_pending {
+  background-color: #696969;
+}
+
+.navbar,
+.alasanpenolakan,
+.pengaduan,
+.tambahkeluhan {
+  background-image: url("./assets/background.png");
+}
+
+.img-logo {
+  width: 50px;
+}
+
+p {
+  font-size: 15px;
+}
+
+nav {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+select {
+  box-shadow: none;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.appr {
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.hist-jdl {
+  color: #152c5b;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+b {
+  color: #152c5b;
+}
+
+.tabes {
+  background-color: tomato;
+}
+
+.desk {
+  color: #219653;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn1 {
+  background-color: #152c5b;
+  color: white;
+  border: none;
+  border-radius: 15px 10px 20px 10px;
+  padding: 10px;
+}
+
+.btn2 {
+  background-color: #366536;
+  color: white;
+  border: none;
+  border-radius: 10px 15px 10px 20px;
+  padding: 10px;
+}
+
+.btnvoteup,
+.btnvotedown {
+  color: black;
+  border: none;
+}
+
+.vote_done {
+  color: #14bd96;
+  border: none;
+}
+
+.btnvoteup {
+  background-color: transparent;
+}
+
+.btnvotedown {
+  background-color: #f12b2c;
+}
+
+.login_title {
+  color: #10bca0;
+}
+
+.btnlogin {
+  background-color: #10bca0;
+  color: white;
+  border: none;
+  border-radius: 10px 15px 10px 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.btn_accepted,
+.btn_rejected,
+.btn-action {
+  color: white;
+  border: none;
+  border-radius: 10px 15px 10px 20px;
+  padding: 10px;
+  width: 100px;
+  margin-top: 2vh;
+}
+
+.btn_accepted {
+  background-color: #14bd96;
+}
+
+.btn_rejected {
+  background-color: #f12b2c;
+}
+
+.btndetail {
+  background-color: transparent;
+  border: none;
+  float: right;
+}
+
+/* home */
+
+.judul {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.judul2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.labelform {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #152c5b;
+  font-weight: bold;
+}
+
+.select-container {
+  position: relative;
+  display: inline-block;
+}
+
+.select-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #152c5b;
+}
+
+.tampilanhome {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+.tampilanadmin {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+.tampilanlogin {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 2r0px;
+  background-color: white;
+}
+
+.inic {
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+}
+
+.homes {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+}
+
+.pending-status {
+  color: #9932cc;
+  font-weight: bold;
+}
+
+.accepted-status {
+  color: #fec400;
+  font-weight: bold;
+}
+
+.rejected-status {
+  color: #f12b2c;
+  font-weight: bold;
+}
+
+.completed-status {
+  color: #14bd96;
+  font-weight: bold;
+}
+
+.pending-status-prof {
+  background-color: #9932cc;
+}
+
+.accepted-status-prof {
+  background-color: #fec400;
+}
+
+.rejected-status-prof {
+  background-color: #f12b2c;
+}
+
+.completed-status-prof {
+  background-color: #14bd96;
+}
+
+.accepted-status-prof,
+.rejected-status-prof,
+.pending-status-prof,
+.completed-status-prof {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.backbutton {
+  justify-content: flex-start;
+}
+
+.juduldetailpengaduan {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.alasanpenolakan {
+  font-weight: bold;
+}
+
+.pengaduan {
+  color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.tambahkeluhan {
+  color: white;
+  border-radius: 10px;
+}
+
+.jdltambahkeluhan {
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.subjudul {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bs {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 60px;
+  border-radius: 5px;
+  padding: 20px;
+  background: white;
+}
+
+.myprf {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.btn-action,
+.btn_accepted,
+.btn_rejected {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.tabels {
+  text-align: center;
+}
+
+/* profile desa */
+
+.container-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250vh;
+}
+
+.profile-village {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk gambar desa */
+.village-image-container-profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.village-image {
+  max-width: 20%;
+  height: auto;
+}
+
+.village-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* Gaya untuk info desa */
+.village-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.village-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.village-description {
+  font-size: 16px;
+}
+
+/* Gaya untuk statistik desa */
+.village-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat {
+  flex-basis: 33.33%;
+  text-align: center;
+}
+
+.stat-label {
+  font-weight: bold;
+}
+
+/* Gaya untuk setiap bagian desa */
+.village-details-section {
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  font-size: 16px;
+}
+
+.section-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Gaya untuk tombol */
+
+.button-container-prof {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.section-list-item {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  color: #777;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #777;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #333;
+}
+
+/* Reset default styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .profile-village {
+    max-width: 100%;
+  }
+
+  .village-image {
+    max-width: 100%;
+  }
+
+  .village-details {
+    margin-left: 0;
+  }
+
+  .village-details-section {
+    margin-bottom: 10px;
+  }
+
+  .section-list {
+    column-count: 1;
+  }
+
+  .jdltambahkeluhan {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .jdlcreate {
+    font-size: 3vh;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .border-right {
+    border-right: none;
+  }
+
+  .col {
+    width: 100%;
+
+    padding: 10px;
+  }
+
+  .col:last-child {
+    border-bottom: none;
+  }
+  .mb-3 {
+    margin-bottom: 15px;
+    padding: 20px;
+  }
+}
+
+.kosarmaps {
+  max-width: 40%;
+  height: auto;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.button-spacing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
