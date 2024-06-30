@@ -5,13 +5,12 @@ import Modal from "react-bootstrap/Modal";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
-import logo from "../../../assets/subang.png";
+import logo from "../../../assets/sukamaju.png";
 
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { IoArrowBackOutline } from "react-icons/io5";
 
 import CONFIG from "../../Api/config";
-
 
 function LoginAdmins() {
   const [username, setUsername] = useState("");
@@ -21,10 +20,9 @@ function LoginAdmins() {
 
   async function verifyCode() {
     try {
-      const response = await axios.post(
-        `${CONFIG.BASE_URL}/v/sVerification`,
-        { code }
-      );
+      const response = await axios.post(`${CONFIG.BASE_URL}/v/sVerification`, {
+        code,
+      });
       console.log(response.data);
 
       if (response.status === 200 && response.data.status === "Success") {

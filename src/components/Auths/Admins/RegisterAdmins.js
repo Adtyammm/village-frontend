@@ -4,7 +4,7 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { IoArrowBackOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
-import logo from "../../../assets/subang.png";
+import logo from "../../../assets/sukamaju.png";
 import CONFIG from "../../Api/config";
 
 function RegisterAdmins() {
